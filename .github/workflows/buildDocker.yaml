@@ -32,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: 76768787/server-rest-api:{{ github.sha }}      
+          tags: 76768787/server-rest-api:${{ github.sha }}      
